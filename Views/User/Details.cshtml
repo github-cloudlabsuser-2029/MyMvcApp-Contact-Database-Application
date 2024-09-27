@@ -9,23 +9,20 @@
 <div>
     <h4>User</h4>
     <hr />
-    <dl class="dl-horizontal">
-        <dt>
+    <dl class="row"></dl>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Name)
         </dt>
-
-        <dd>
+        <dd class="col-sm-10"></dd>
             @Html.DisplayFor(model => model.Name)
         </dd>
-
-        <dt>
+        <dt class="col-sm-2">
             @Html.DisplayNameFor(model => model.Email)
         </dt>
-
-        <dd>
+        <dd class="col-sm-10">
             @Html.DisplayFor(model => model.Email)
         </dd>
-
+        <!-- Add other fields as necessary -->
     </dl>
 </div>
 <p>
