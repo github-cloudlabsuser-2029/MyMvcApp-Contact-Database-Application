@@ -1,0 +1,24 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+bin/
+obj/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# ASP.NET Core
+wwwroot/node_modules/
+wwwroot/lib/
+
+# .NET, .NET Core, ASP.NET, ASP.NET Core
+.vscode/
+.vscode-test/
+.vs/
+.vscode-test/
